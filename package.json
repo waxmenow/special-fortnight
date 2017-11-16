@@ -1,0 +1,34 @@
+{
+	"name": "WaxMeNow_AIRTABLE_MIDDLEWARE",
+	"version": "0.0.1",
+	"description": "update AIRTABLE DB FROM HTTP POSTS",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"airtable": "^0.5.0",
+		"body-parser": "*",
+		"connect-memjs": "^0.2.1",
+		"cookie-parser": "^1.4.3",
+		"cookie-session": "latest",
+		"datejs": "0.0.2",
+		"ejs": "^1.0.0",
+		"express": "^4.12.4",
+		"express-session": "^1.15.6",
+		"memcached": "^2.2.2",
+		"public-ip": "^2.3.5"
+	},
+	"engines": {
+		"node": "6.9.x"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"airtable"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"node-env-run": "^2.0.1"
+	}
+}
